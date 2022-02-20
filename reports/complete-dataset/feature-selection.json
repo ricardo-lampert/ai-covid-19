@@ -1,0 +1,66 @@
+{
+    "feature selection": {
+        "select-k-best": {
+            "fold 0": [
+                "d dimero_ALTO",
+                "d dimero_NORMAL",
+                "desidrogenase latica_ALTO",
+                "desidrogenase latica_NORMAL",
+                "hemograma eosinofilos_BAIXO",
+                "hemograma eosinofilos_NORMAL",
+                "hemograma leucocitos_BAIXO",
+                "hemograma linfocitos_BAIXO",
+                "hemograma neutrofilos_BAIXO",
+                "tgp_ALTO"
+            ],
+            "fold 1": [
+                "d dimero_ALTO",
+                "d dimero_NORMAL",
+                "desidrogenase latica_ALTO",
+                "desidrogenase latica_NORMAL",
+                "hemograma eosinofilos_BAIXO",
+                "hemograma eosinofilos_NORMAL",
+                "hemograma leucocitos_BAIXO",
+                "hemograma linfocitos_BAIXO",
+                "hemograma neutrofilos_BAIXO",
+                "tgp_ALTO"
+            ],
+            "fold 2": [
+                "d dimero_ALTO",
+                "d dimero_NORMAL",
+                "desidrogenase latica_ALTO",
+                "hemograma eosinofilos_BAIXO",
+                "hemograma eosinofilos_NORMAL",
+                "hemograma leucocitos_ALTO",
+                "hemograma leucocitos_BAIXO",
+                "hemograma linfocitos_BAIXO",
+                "tgo_ALTO",
+                "tgp_ALTO"
+            ],
+            "fold 3": [
+                "d dimero_ALTO",
+                "d dimero_NORMAL",
+                "desidrogenase latica_ALTO",
+                "desidrogenase latica_NORMAL",
+                "hemograma eosinofilos_BAIXO",
+                "hemograma eosinofilos_NORMAL",
+                "hemograma leucocitos_ALTO",
+                "hemograma linfocitos_BAIXO",
+                "tgo_ALTO",
+                "tgp_ALTO"
+            ],
+            "fold 4": [
+                "d dimero_ALTO",
+                "d dimero_NORMAL",
+                "desidrogenase latica_ALTO",
+                "desidrogenase latica_NORMAL",
+                "hemograma eosinofilos_BAIXO",
+                "hemograma eosinofilos_NORMAL",
+                "hemograma leucocitos_ALTO",
+                "hemograma linfocitos_BAIXO",
+                "tgo_ALTO",
+                "tgp_ALTO"
+            ]
+        }
+    }
+}

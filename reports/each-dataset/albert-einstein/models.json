@@ -1,0 +1,314 @@
+{
+    "models": {
+        "Decision Tree": {
+            "fold 0": {
+                "accuracy": 0.66,
+                "precision": 0.69,
+                "recall": 0.6,
+                "f1-score": 0.64,
+                "confusion matrix": {
+                    "tp": "0.6",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.4"
+                }
+            },
+            "fold 1": {
+                "accuracy": 0.7,
+                "precision": 0.72,
+                "recall": 0.66,
+                "f1-score": 0.69,
+                "confusion matrix": {
+                    "tp": "0.66",
+                    "tn": "0.75",
+                    "fp": "0.25",
+                    "fn": "0.34"
+                }
+            },
+            "fold 2": {
+                "accuracy": 0.7,
+                "precision": 0.71,
+                "recall": 0.7,
+                "f1-score": 0.7,
+                "confusion matrix": {
+                    "tp": "0.7",
+                    "tn": "0.71",
+                    "fp": "0.29",
+                    "fn": "0.3"
+                }
+            },
+            "fold 3": {
+                "accuracy": 0.71,
+                "precision": 0.72,
+                "recall": 0.68,
+                "f1-score": 0.7,
+                "confusion matrix": {
+                    "tp": "0.68",
+                    "tn": "0.74",
+                    "fp": "0.26",
+                    "fn": "0.32"
+                }
+            },
+            "fold 4": {
+                "accuracy": 0.69,
+                "precision": 0.7,
+                "recall": 0.65,
+                "f1-score": 0.67,
+                "confusion matrix": {
+                    "tp": "0.65",
+                    "tn": "0.72",
+                    "fp": "0.28",
+                    "fn": "0.35"
+                }
+            }
+        },
+        "Random Forest": {
+            "fold 0": {
+                "accuracy": 0.74,
+                "precision": 0.76,
+                "recall": 0.71,
+                "f1-score": 0.74,
+                "confusion matrix": {
+                    "tp": "0.71",
+                    "tn": "0.77",
+                    "fp": "0.23",
+                    "fn": "0.29"
+                }
+            },
+            "fold 1": {
+                "accuracy": 0.76,
+                "precision": 0.77,
+                "recall": 0.74,
+                "f1-score": 0.75,
+                "confusion matrix": {
+                    "tp": "0.74",
+                    "tn": "0.78",
+                    "fp": "0.22",
+                    "fn": "0.26"
+                }
+            },
+            "fold 2": {
+                "accuracy": 0.74,
+                "precision": 0.73,
+                "recall": 0.75,
+                "f1-score": 0.74,
+                "confusion matrix": {
+                    "tp": "0.75",
+                    "tn": "0.72",
+                    "fp": "0.28",
+                    "fn": "0.25"
+                }
+            },
+            "fold 3": {
+                "accuracy": 0.76,
+                "precision": 0.76,
+                "recall": 0.74,
+                "f1-score": 0.75,
+                "confusion matrix": {
+                    "tp": "0.74",
+                    "tn": "0.77",
+                    "fp": "0.23",
+                    "fn": "0.26"
+                }
+            },
+            "fold 4": {
+                "accuracy": 0.74,
+                "precision": 0.74,
+                "recall": 0.74,
+                "f1-score": 0.74,
+                "confusion matrix": {
+                    "tp": "0.74",
+                    "tn": "0.74",
+                    "fp": "0.26",
+                    "fn": "0.26"
+                }
+            }
+        },
+        "KNN": {
+            "fold 0": {
+                "accuracy": 0.72,
+                "precision": 0.72,
+                "recall": 0.7,
+                "f1-score": 0.71,
+                "confusion matrix": {
+                    "tp": "0.7",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.3"
+                }
+            },
+            "fold 1": {
+                "accuracy": 0.73,
+                "precision": 0.73,
+                "recall": 0.72,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.72",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.28"
+                }
+            },
+            "fold 2": {
+                "accuracy": 0.7,
+                "precision": 0.68,
+                "recall": 0.74,
+                "f1-score": 0.71,
+                "confusion matrix": {
+                    "tp": "0.74",
+                    "tn": "0.65",
+                    "fp": "0.35",
+                    "fn": "0.26"
+                }
+            },
+            "fold 3": {
+                "accuracy": 0.7,
+                "precision": 0.71,
+                "recall": 0.68,
+                "f1-score": 0.69,
+                "confusion matrix": {
+                    "tp": "0.68",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.32"
+                }
+            },
+            "fold 4": {
+                "accuracy": 0.68,
+                "precision": 0.68,
+                "recall": 0.7,
+                "f1-score": 0.69,
+                "confusion matrix": {
+                    "tp": "0.7",
+                    "tn": "0.67",
+                    "fp": "0.33",
+                    "fn": "0.3"
+                }
+            }
+        },
+        "Logistic Regression": {
+            "fold 0": {
+                "accuracy": 0.77,
+                "precision": 0.77,
+                "recall": 0.77,
+                "f1-score": 0.77,
+                "confusion matrix": {
+                    "tp": "0.77",
+                    "tn": "0.77",
+                    "fp": "0.23",
+                    "fn": "0.23"
+                }
+            },
+            "fold 1": {
+                "accuracy": 0.78,
+                "precision": 0.77,
+                "recall": 0.8,
+                "f1-score": 0.79,
+                "confusion matrix": {
+                    "tp": "0.8",
+                    "tn": "0.76",
+                    "fp": "0.24",
+                    "fn": "0.2"
+                }
+            },
+            "fold 2": {
+                "accuracy": 0.76,
+                "precision": 0.75,
+                "recall": 0.79,
+                "f1-score": 0.77,
+                "confusion matrix": {
+                    "tp": "0.79",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.21"
+                }
+            },
+            "fold 3": {
+                "accuracy": 0.77,
+                "precision": 0.77,
+                "recall": 0.77,
+                "f1-score": 0.77,
+                "confusion matrix": {
+                    "tp": "0.77",
+                    "tn": "0.77",
+                    "fp": "0.23",
+                    "fn": "0.23"
+                }
+            },
+            "fold 4": {
+                "accuracy": 0.77,
+                "precision": 0.76,
+                "recall": 0.8,
+                "f1-score": 0.78,
+                "confusion matrix": {
+                    "tp": "0.8",
+                    "tn": "0.74",
+                    "fp": "0.26",
+                    "fn": "0.2"
+                }
+            }
+        },
+        "SVM": {
+            "fold 0": {
+                "accuracy": 0.77,
+                "precision": 0.75,
+                "recall": 0.8,
+                "f1-score": 0.78,
+                "confusion matrix": {
+                    "tp": "0.8",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.2"
+                }
+            },
+            "fold 1": {
+                "accuracy": 0.78,
+                "precision": 0.76,
+                "recall": 0.83,
+                "f1-score": 0.79,
+                "confusion matrix": {
+                    "tp": "0.83",
+                    "tn": "0.74",
+                    "fp": "0.26",
+                    "fn": "0.17"
+                }
+            },
+            "fold 2": {
+                "accuracy": 0.78,
+                "precision": 0.75,
+                "recall": 0.83,
+                "f1-score": 0.79,
+                "confusion matrix": {
+                    "tp": "0.83",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.17"
+                }
+            },
+            "fold 3": {
+                "accuracy": 0.79,
+                "precision": 0.78,
+                "recall": 0.81,
+                "f1-score": 0.79,
+                "confusion matrix": {
+                    "tp": "0.81",
+                    "tn": "0.77",
+                    "fp": "0.23",
+                    "fn": "0.19"
+                }
+            },
+            "fold 4": {
+                "accuracy": 0.77,
+                "precision": 0.75,
+                "recall": 0.82,
+                "f1-score": 0.78,
+                "confusion matrix": {
+                    "tp": "0.82",
+                    "tn": "0.73",
+                    "fp": "0.27",
+                    "fn": "0.18"
+                }
+            }
+        }
+    }
+}
