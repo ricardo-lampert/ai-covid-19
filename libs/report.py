@@ -41,7 +41,6 @@ def feature_selection_report(features):
 
 
 def dataset_info_report(df):
-
     dataset_info = {
         "shape": {"instances": df.shape[0], "features": df.shape[1]},
         "features": {},

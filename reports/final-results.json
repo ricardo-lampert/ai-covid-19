@@ -1,0 +1,263 @@
+{
+    "select-k-best": {
+        "N Features": 34,
+        "Features": [
+            "hemograma eosinofilos_BAIXO",
+            "hemograma eosinofilos_NORMAL",
+            "d dimero_NORMAL",
+            "d dimero_ALTO",
+            "hemograma leucocitos_ALTO",
+            "tgp_ALTO",
+            "hemograma linfocitos_BAIXO",
+            "hemograma leucocitos_BAIXO",
+            "hemograma eosinofilos_ALTO",
+            "desidrogenase latica_ALTO",
+            "bilirrubina direta_NORMAL",
+            "desidrogenase latica_NORMAL",
+            "hemograma neutrofilos_BAIXO",
+            "hemograma neutrofilos_ALTO",
+            "bilirrubina total_NORMAL",
+            "hemograma neutrofilos_NORMAL",
+            "hemograma monocitos_ALTO",
+            "hemograma linfocitos_ALTO",
+            "hemograma hemoglobina_NORMAL",
+            "hemograma hemoglobina_BAIXO",
+            "hemograma eritrocitos_BAIXO",
+            "bilirrubina indireta_NORMAL",
+            "tgo_ALTO",
+            "calcio ionizavel_BAIXO",
+            "magnesio_BAIXO",
+            "hemograma linfocitos_NORMAL",
+            "creatinina_NORMAL",
+            "ureia_NORMAL",
+            "hemograma vcm_BAIXO",
+            "hemograma monocitos_BAIXO",
+            "hemograma vcm_NORMAL",
+            "hemograma rdw_ALTO",
+            "hemograma hematocrito_BAIXO",
+            "LABEL"
+        ],
+        "Decision Tree": {
+            "concatenated-dataset": {
+                "accuracy": 0.88,
+                "precision": 0.76,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            },
+            "albert-einstein": {
+                "accuracy": 0.88,
+                "precision": 0.75,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            },
+            "beneficencia-portuguesa": {
+                "accuracy": 0.88,
+                "precision": 0.76,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            },
+            "hospital-de-clinicas": {
+                "accuracy": 0.88,
+                "precision": 0.76,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            },
+            "sirio-libanes": {
+                "accuracy": 0.88,
+                "precision": 0.76,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            },
+            "grupo-fleury": {
+                "accuracy": 0.88,
+                "precision": 0.76,
+                "recall": 0.89,
+                "f1-score": 0.82,
+                "confusion matrix": {
+                    "tp": "0.89",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.11"
+                }
+            }
+        },
+        "Random Forest": {
+            "concatenated-dataset": {
+                "accuracy": 0.89,
+                "precision": 0.76,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.1"
+                }
+            },
+            "albert-einstein": {
+                "accuracy": 0.89,
+                "precision": 0.77,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.1"
+                }
+            },
+            "beneficencia-portuguesa": {
+                "accuracy": 0.89,
+                "precision": 0.77,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.1"
+                }
+            },
+            "hospital-de-clinicas": {
+                "accuracy": 0.89,
+                "precision": 0.77,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.89",
+                    "fp": "0.11",
+                    "fn": "0.1"
+                }
+            },
+            "sirio-libanes": {
+                "accuracy": 0.89,
+                "precision": 0.76,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.1"
+                }
+            },
+            "grupo-fleury": {
+                "accuracy": 0.89,
+                "precision": 0.77,
+                "recall": 0.9,
+                "f1-score": 0.83,
+                "confusion matrix": {
+                    "tp": "0.9",
+                    "tn": "0.88",
+                    "fp": "0.12",
+                    "fn": "0.1"
+                }
+            }
+        },
+        "KNN": {
+            "concatenated-dataset": {
+                "accuracy": 0.81,
+                "precision": 0.65,
+                "recall": 0.81,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.81",
+                    "tn": "0.81",
+                    "fp": "0.19",
+                    "fn": "0.19"
+                }
+            },
+            "albert-einstein": {
+                "accuracy": 0.8,
+                "precision": 0.63,
+                "recall": 0.82,
+                "f1-score": 0.71,
+                "confusion matrix": {
+                    "tp": "0.82",
+                    "tn": "0.8",
+                    "fp": "0.2",
+                    "fn": "0.18"
+                }
+            },
+            "beneficencia-portuguesa": {
+                "accuracy": 0.81,
+                "precision": 0.65,
+                "recall": 0.81,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.81",
+                    "tn": "0.81",
+                    "fp": "0.19",
+                    "fn": "0.19"
+                }
+            },
+            "hospital-de-clinicas": {
+                "accuracy": 0.81,
+                "precision": 0.64,
+                "recall": 0.82,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.82",
+                    "tn": "0.8",
+                    "fp": "0.2",
+                    "fn": "0.18"
+                }
+            },
+            "sirio-libanes": {
+                "accuracy": 0.81,
+                "precision": 0.65,
+                "recall": 0.81,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.81",
+                    "tn": "0.81",
+                    "fp": "0.19",
+                    "fn": "0.19"
+                }
+            },
+            "grupo-fleury": {
+                "accuracy": 0.81,
+                "precision": 0.65,
+                "recall": 0.81,
+                "f1-score": 0.72,
+                "confusion matrix": {
+                    "tp": "0.81",
+                    "tn": "0.82",
+                    "fp": "0.18",
+                    "fn": "0.19"
+                }
+            }
+        }
+    }
+}

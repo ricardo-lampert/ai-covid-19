@@ -1,0 +1,29 @@
+DATASETS_PATH : "../dataset/"
+REPORT_PATH : "../reports/"
+PLOTS_PATH : "../plots/"
+INFO_PATH : "info/"
+MODELS_PATH : "models/"
+INTERIM_PATH : "interim/"
+FEATURES_PATH : "features/"
+
+DATASETS : [
+    "concatenated-dataset",
+    "albert-einstein",
+    "beneficencia-portuguesa",
+    "hospital-de-clinicas",
+    "sirio-libanes",
+    "grupo-fleury"
+    ]
+MODELS : [
+    "Decision Tree" ,
+    "Random Forest" ,
+    "KNN" ,
+    # "Logistic Regression" ,
+    # "SVM"
+]
+
+SPARSE_COLUMN : 75
+SPARSE_ROW : 75
+N_FOLDS : 10
+N_FEATURES : 10
+FS_THRESHOLD : 0.25
