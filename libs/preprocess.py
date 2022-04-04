@@ -32,3 +32,4 @@ def one_hot_encoded(df):
         np.where(df["LABEL"].values == "POSITIVO", 1, 0), df.index, columns=["LABEL"]
     )
     return pd.concat([one_hot_encoded_X, one_hot_encoded_y], axis=1)
+

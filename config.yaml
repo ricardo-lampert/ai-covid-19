@@ -23,11 +23,29 @@ MODELS : [
     "Logistic Regression" ,
     "SVM"
 ]
-
+FS_MODELS : [
+    "f_classif",
+    # ANOVA F-value between label/feature for classification tasks.
+    "mutual_info_classif",
+    # Mutual information for a discrete target.
+    "chi2",
+    # Chi-squared stats of non-negative features for classification tasks.
+    "SelectPercentile",
+    # Select features based on percentile of the highest scores.
+    "SelectFpr",
+    # Select features based on a false positive rate test.
+    "SelectFdr",
+    # Select features based on an estimated false discovery rate.
+    "SelectFwe",
+    # Select features based on family-wise error rate.
+    "GenericUnivariateSelect"
+    # Univariate feature selector with configurable mode.
+]
+LEN_FEATURES : 87
 SPARSE_COLUMN : 75
 SPARSE_ROW : 75
 N_FOLDS : 10
-N_FEATURES : 10
-N_FEATURES_THRESHOLD: 15
-N_FEATURES_BEST_THRESHOLD: 50
+N_FEATURES : 100
+N_FEATURES_THRESHOLD: 30
+N_FEATURES_BEST_THRESHOLD: 20
 FS_THRESHOLD : 0.25

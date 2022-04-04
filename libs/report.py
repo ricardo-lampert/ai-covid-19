@@ -43,14 +43,14 @@ def feature_selection_report(features):
 def dataset_info_report(df):
     dataset_info = {
         "shape": {"instances": df.shape[0], "features": df.shape[1]},
-        "features": {},
+        # "features": {},
     }
-    features = {}
-    for column in df.columns:
-        info = df[column].value_counts(dropna=False)
-        for info_label in info.items():
-            if column not in features:
-                features[column] = {}
-            features[column][info_label[0]] = info_label[1]
-    dataset_info["features"] = features
+    # features = {}
+    # for column in df.columns:
+    #     info = df[column].value_counts(dropna=False)
+    #     for info_label in info.items():
+    #         if column not in features:
+    #             features[column] = {}
+    #         features[column][info_label[0]] = info_label[1]
+    # dataset_info["features"] = features
     return dataset_info
